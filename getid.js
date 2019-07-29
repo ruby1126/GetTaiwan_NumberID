@@ -33,8 +33,8 @@ function getchknum(x){
         var fnum=b1+(b2*9); //英文字母算出的數字
         var ff=1;
         for(var i=8;i>0;i--){
-			fnum+=x.substr(i,1)*ff;
-			ff++;
+	    fnum+=x.substr(i,1)*ff;
+	    ff++;
         }
         var final=(fnum%10==0)?0:10-(fnum%10); //檢查碼
         return final;
