@@ -14,7 +14,7 @@ function getid(){
    b.push(i);
   }
  value=a[getRandom(0,25)]+getRandom(1,2);
- for(var i=0;i<8;i++){
+ for(var i=0;i<7;i++){
   value+=getRandom(1,9);
  }
  return value+=getchknum(value);
